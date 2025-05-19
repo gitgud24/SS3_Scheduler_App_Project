@@ -22,7 +22,7 @@ class SettingsActivity : AppCompatActivity() {
             startActivity(Intent(this, AccountSettingsActivity::class.java))
         }
 
-        // Feedback section
+        // Feedback section >
         binding.submitFeedbackButton.setOnClickListener {
             val rating = binding.ratingBar.rating
             val comment = binding.feedbackInput.text.toString().trim()
